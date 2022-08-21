@@ -19,7 +19,7 @@
         <nav class="nav">
           <a href="./index.html" class="logo-header logo-flex">Web<span>Studio</span></a>
           <ul class="nav-flex">
-            <li><a href="./index.html" class="link ">Студия</a></li>
+            <li><a href="./index.html" class="link">Студия</a></li>
             <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
             <li><a href="#" class="link">Контакты</a></li>
           </ul>
@@ -33,7 +33,7 @@
 
     <main>
       <!========= Filter ==========>
-      <section>
+      <section class="portfolio">
         <h1 class="title-none">Наш портфолио</h1>
         <div class="container">
           <ul class="btn-filter">
@@ -43,8 +43,8 @@
             <li><button class="button-filter" type="button">Дизайн</button></li>
             <li><button class="button-filter" type="button">Маркетинг</button></li>
           </ul>
-          <div class="card-filter">
-            <ul class="list">
+          <div class="cards-filter">
+            <ul class="list-card">
               <li>
                 <a href=""
                   ><img
@@ -52,9 +52,11 @@
                     alt="Демонстрация веб-сайта на ноутбуке"
                     width="370"
                   />
-                  <h2 class="filter-title">Технокряк</h2>
-                  <p>Веб-сайт</p></a
-                >
+                  <div class="card-filter">
+                    <h2 class="filter-title">Технокряк</h2>
+                    <p>Веб-сайт</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
@@ -63,30 +65,38 @@
                     alt="Постер на котором изображены два баскетболиста"
                     width="370"
                   />
-                  <h2 class="filter-title">Постер New Orlean vs Golden Star</h2>
-                  <p>Дизайн</p></a
-                >
+                  <div class="card-filter">
+                    <h2 class="filter-title">Постер New Orlean vs Golden Star</h2>
+                    <p>Дизайн</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
                   ><img src="./images/portfolio3.jpg" alt="Логотип ресторана" width="370" />
-                  <h2 lang="en" class="filter-title">Ресторан Seafood</h2>
-                  <p>Приложение</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Ресторан Seafood</h2>
+                    <p>Приложение</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
                   ><img src="./images/portfolio4.jpg" alt="Наушники" width="370" />
-                  <h2 lang="en" class="filter-title">Проект Prime</h2>
-                  <p>Маркетинг</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Проект Prime</h2>
+                    <p>Маркетинг</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
                   ><img src="./images/portfolio5.jpg" alt="Две коробки на столе" width="370" />
-                  <h2 lang="en" class="filter-title">Проект Boxes</h2>
-                  <p>Приложение</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Проект Boxes</h2>
+                    <p>Приложение</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
@@ -95,9 +105,11 @@
                     alt="Демонстрация веб-сайта на мониторе"
                     width="370"
                   />
-                  <h2 lang="en" class="filter-title">Inspiration has no Borders</h2>
-                  <p>Веб-сайт</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Inspiration has no Borders</h2>
+                    <p>Веб-сайт</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
@@ -106,16 +118,20 @@
                     alt="Развернутая книга на столе"
                     width="370"
                   />
-                  <h2 lang="en" class="filter-title">Издание Limited Edition</h2>
-                  <p>Дизайн</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Издание Limited Edition</h2>
+                    <p>Дизайн</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
                   ><img src="./images/portfolio8.jpg" alt="Бирка для одежды" width="370" />
-                  <h2 lang="en" class="filter-title">Проект LAB</h2>
-                  <p>Маркетинг</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Проект LAB</h2>
+                    <p>Маркетинг</p>
+                  </div>
+                </a>
               </li>
               <li>
                 <a href=""
@@ -124,9 +140,11 @@
                     alt="парень набирает текст на ноутбуке"
                     width="370"
                   />
-                  <h2 lang="en" class="filter-title">Growing Business</h2>
-                  <p>Приложение</p></a
-                >
+                  <div class="card-filter">
+                    <h2 lang="en" class="filter-title">Growing Business</h2>
+                    <p>Приложение</p>
+                  </div>
+                </a>
               </li>
             </ul>
           </div>
@@ -135,12 +153,12 @@
     </main>
 
     <!=========== Footer =============>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <address>
           <a href="./index.html" class="logo-footer">Web<span>Studio</span></a>
-          <ul >
-            <li>
+          <ul>
+            <li class="footer-link">
               <a
                 class="maps-link"
                 href="https://goo.gl/maps/nKGTYEwU94ANi7mf6"
@@ -149,8 +167,8 @@
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li><a href="mailto:info@example.com" class="address-link">info@example.com</a></li>
-            <li><a href="tel:+380961111111" class="address-link phone">+38 096 111 11 11</a></li>
+            <li class="footer-link"><a href="mailto:info@example.com" class="address-link">info@example.com</a></li>
+            <li class="footer-link"><a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a></li>
           </ul>
         </address>
       </div>
